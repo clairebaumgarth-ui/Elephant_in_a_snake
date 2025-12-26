@@ -7,9 +7,12 @@
         <link rel="stylesheet" href="index.css">
         <!--Font Awesome Link to add icons-->
         <script 
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+        </script>
+        <script 
             src="https://kit.fontawesome.com/5b06e45dae.js"
-            crossorigin="anonymous"
-        ></script>
+            crossorigin="anonymous">
+        </script>
     </head>
 
     
@@ -17,16 +20,16 @@
         <header>
             <nav>
                 <div class="navbar__container">
-                    <a href="/" id="navbar-logo">Gadi</a>
+                    <a href="/" id="navbar-logo">Elephant in a Snake</a>
                     <ul class="navbar__menu">
                         <li class="navbar__item">
                             <a id= "l1" href="/" class="navbar__links">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a id= "l2" href="/about.html" class="navbar__links">About</a>
+                            <a id= "l2" href="/about_me.html" class="navbar__links">About</a>
                         </li>
                         <li class="navbar__item">
-                            <a id= "l3" href="/gallery.html" class="navbar__links">Portfolio</a>
+                            <a id= "l3" href="/flip_portfolio.html" class="navbar__links">Portfolio</a>
                         </li>
                         <li class="navbar__item">
                             <a id= "l4" href="/projects.html" class="navbar__links">Projects</a>
@@ -58,15 +61,13 @@
 
         <main>
             <!-- Hero Section -->
+            
             <section class="hero">
                 <div class="hero__container">
                     <div class="hero__content">
-                        <h1 id= "h_h1">Elephant In A Snake</hl>
+                        <div class="logo"><img class= "logo-img" width="400px" src="\logo.svg" alt=""></div>
+                        <h1 id= "h_h1">Elephant in a Snake</hl>
                         <p id="h_p">Claire Baumgarth - Illustrator and Animated Film Director</p>
-                        <button class="hero__btn">Contact</button>
-                    </div>
-                    <div class="hero__image">
-                        <img id ="hero-img" src="/Pictures/portrait.png" alt="text alt" class="">
                     </div>
                 </div>
 
@@ -74,77 +75,107 @@
                 <div class="logos">
                     <div class = "logos__track">
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Aurora.png" alt="text alt" class="">
+                            <a href="\movie_aurora.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Aurora.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Cellulo.png" alt="text alt" class="">
+                            <a href="\movie_Cellulo.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Cellulo.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Fish.png" alt="text alt" class="">
+                            <a href="\movie_fish.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Fish.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Fleur.JPG" alt="text alt" class="">
+                            <a href="\movie_La_Fleur.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Fleur.JPG" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures/Movie_Screen/Goose.png" alt="text alt" class="">
+                            <a href="\movie_Goose.html">
+                                <img id = "1-img" src="Pictures/Movie_Screen/carré\Goose.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Plongeur.png" alt="text alt" class="">
+                            <a href="\movie_Le_Plongeur.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Plongeur.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Reindeer.png" alt="text alt" class="">
+                            <a href="\movie_Reindeer.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Reindeer.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Run.png" alt="text alt" class="">
+                            <a href="\movie_Blue_Carbon.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\Run.png" alt="text alt" class="">
+                            </a>
                         </span>
                         <span class = "logo-text">
-                            <img id = "1-img" src="Pictures\Movie_Screen\Snow.png" alt="text alt" class="">
+                            <a href="\movie_Snow.html"></a>
+                            <img id = "1-img" src="Pictures\Movie_Screen\carré\Snow.png" alt="text alt" class="">
+                        </span>
+                        <span class = "logo-text">
+                            <a href="\movie_In_The_Bag.html">
+                                <img id = "1-img" src="Pictures\Movie_Screen\carré\in_the_bag.png" alt="text alt" class="">
+                            </a>
                         </span>
                     </div>
                 </div>
 
                 <!-- Section 1 -->
                 <div class="s1__container">
-                    <div class ="feature-grid">
+                <div class="feature-grid">
+                    <div class ="feature-grid-illu">
                         <div class="feature-item">
                             <i class="fa-solid fa-pencil icon"></i>
                             <h3 id="s1_h1">Illustration</h3>
-                            <p id="s1_p1">Discover my traditional and digital illustrations, comic projects, character and background designs !</p>
                         </div>
+                    </div>
+                    <div class ="feature-grid-anim">
                         <div class="feature-item">
                             <i class="fa-solid fa-fire-flame-curved icon"></i>
                             <h3 id="s1_h2">Animation</h3>
-                            <p id="s1_p2">Have a look at my demo reel and my various animation projects</p>
                         </div>
+                    </div>
+                    <div class ="feature-grid-partner">
                         <div class="feature-item">   
                             <i class="fa-solid fa-handshake icon"></i>
                             <h3 id="s1_h3">Partnership</h3>
-                            <p id="s1_p3">Projects in collaboration with worldwide institutions</p>
                         </div>
+                    </div>
+                    <div class ="feature-grid-services">
                         <div class="feature-item">   
                             <i class="fa-solid fa-paper-plane icon"></i>
                             <h3 id="s1_h4">Services</h3>
-                            <p id="s1_p4">I am open to work and comissions ! Contact me to build a project together </p>
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </div>
             <!-- Footer Section-->
             <footer>
                 <div class="footer__container">
                     <div class="footer__links">
-                        <div class="footer__link-wrapper">
+                        <div class="footer__link-wrapper">     
                             <div class="footer__link-items">
                                 <h3>About</h3>
-                                <a href="/journey.html">Journey</a>
-                                <a href="">Resume</a>
+                                <a href="/about_me.html">Journey</a>
+                                <a href="Resume_Baumgarth_Claire_Eng_2026.pdf" target="_blank">Resume</a>
                             </div>
 
                             <div class="footer__link-items">
                                 <h3>Contact</h3>
-                                <a href="/contact.html">Email</a>
-                                <a href="/contact.html">Phone N°</a>
+                                <a href="mailto:claire.baumgarth@gmail.com">Email</a>
+                                <a href="tel:+33783158670">Phone N°</a>
+                            </div>
+
+                            <div class="footer__link-items">
+                                <h3>Download</h3>
+                                <a href="/flip_portfolio.html">Portfolio</a>
+                                <a href="/demoreel.html">Demoreel</a>
                             </div>
 
                             <div class="footer__link-items">
@@ -210,6 +241,59 @@
                 </div>
             </footer>
         </main>
-        <script src="index.js"></script>
+        <script>
+            const menu = document.querySelector("#mobile-menu")
+            const menuLinks = document.querySelector(".navbar__menu")
+
+            menu.addEventListener("click", function(){
+                menu.classList.toggle("is-active")
+                menuLinks.classList.toggle("active")
+            })
+
+
+            const logos = document.querySelector(".logos__track").cloneNode(true)
+            document.querySelector(".logos").appendChild(logos)
+
+
+            jQuery(window).scroll(function(){
+
+            jQuery('.hero__content').css("opacity", (jQuery(window).scrollTop()/200))
+            jQuery('.navbar__container').css("opacity", (jQuery(window).scrollTop()/200))
+            jQuery('.logo').css("transform", ("rotateZ("+ ((jQuery(window).scrollTop()/5)-45)  + "deg)"))
+
+            var fromTopPx = 20; // distance to trigger
+            var scrolledFromtop = jQuery(window).scrollTop()
+            if (scrolledFromtop > 7*fromTopPx){
+                jQuery('html').addClass('scrolled_7')
+            }
+            if (scrolledFromtop > 6*fromTopPx){
+                jQuery('html').addClass('scrolled_6')
+            }
+            if (scrolledFromtop > 5*fromTopPx){
+                jQuery('html').addClass('scrolled_5')
+                
+            }
+            if (scrolledFromtop > 4*fromTopPx){
+                jQuery('html').addClass('scrolled_4')
+            }
+            if (scrolledFromtop > 3*fromTopPx){
+                jQuery('html').addClass('scrolled_3')
+            }
+            if (scrolledFromtop > 2*fromTopPx){
+                jQuery('html').addClass('scrolled_2')
+            }
+            else if(scrolledFromtop > fromTopPx){
+                jQuery('html').addClass('scrolled')
+            } else{
+                jQuery('html').removeClass('scrolled')
+                jQuery('html').removeClass('scrolled_2')
+                jQuery('html').removeClass('scrolled_3')
+                jQuery('html').removeClass('scrolled_4')
+                jQuery('html').removeClass('scrolled_5')
+                jQuery('html').removeClass('scrolled_6')
+            }
+            });
+        
+        </script>
     </body>
 </html>
