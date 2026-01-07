@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'futuralight';
+    src: url(futuralight.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Penna"; 
+    overflow-x: hidden;
+    
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height : 80px;
+    background: rgb(229, 227, 225);
+    z-index:1000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50 px;
+    position: fixed;
+}
+
+#navbar-logo{
+    color: #CD90E8;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-inline-start: 10px;
+}
+
+.navbar__menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+
+.navbar__links{
+    color: #141414;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.navbar__links:hover{
+    color: #CD90E8;
+    transition: all 0.3s ease;
+}
+
+/*Contact Button*/
+.button { 
+    background: #CD90E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-inline: 50px;
+    display:flex;
+    font-size: 2rem;
+}
+
+.navbar__btn.mobile{
+    display: none;
+}
+
+.navbar__btn.desktop{
+    display: flex;
+    align-items:center;
+}
+
+
+.button:hover{
+    background: #8937B8;
+    transition: all 0.3s ease;
+}
+
+.navbar__toggle{
+    display: none;
+}
+
+/* Smaller screen adaptation*/
+@media screen and (max-width: 960px){
+
+    .fa-bars{
+        line-height: normal;
+    }
+
+    .navbar__toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        z-index: 10;
+        font-size: 1.5res;
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding:0;
+    }
+
+    .navbar__menu{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100% - 80px);
+        opacity: 0;
+        transition: all 0.5s ease;
+        background: #141414;
+        z-index: 10;
+        margin: 0;
+    }
+
+    .navbar__menu.active{
+        left: 0;
+        opacity: 1;
+    }
+
+    .navbar__item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar__links{
+        color: #fff;
+        text-align:center;
+        padding: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Contact Button*/
+    
+    .navbar__btn.desktop{
+        display: none;
+    }
+
+    .navbar__btn.mobile{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 2rem;
+        width:100%;
+    }
+
+}
+
+
+/* Hero CSS */
+.hero{
+    background: #141414;
+}
+
+.hero__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: first baseline;
+    margin: 0 auto;
+    height : 90%;
+    width: 100%;
+    padding: 80px 50px;
+    max-width: 1300px;
+    
+}
+
+.hero__content{
+    color: #fff;
+    text-align: justify;
+    align-content: center;
+    justify-content: center;
+    grid-column: 1;
+    
+}
+
+.hero__content h1{
+    font-size: 4rem;
+    margin-top: 20px; 
+}
+
+.hero__content p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: 'futuralight';
+}
+
+
+.phone{
+    margin-top: 200px;
+    grid-column: 2;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.email{
+    margin-top: 200px;
+    grid-column: 3;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.media{
+    margin-top: 200px;
+    grid-column: 4;
+    margin-left: 50px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.phone a, .email a, .media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:900px){
+
+    .hero__content{
+        grid-column: 1/4;
+    }
+
+    .phone, .media, .email{
+        grid-column: 1/4;
+        margin: 10px 10px;
+    }
+}
+
+/* Hero Smaller Screen Adaptation*/
+@media screen and (max-width:768px){
+    .hero__container{
+        height:auto;
+        padding: 100px 10px;
+        
+        align-content: center;
+    }
+
+    .hero__content{
+        text-align: justify;
+        margin-bottom: 4rem;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__content h1{
+        font-size: 2.5rem;
+        margin-top:2rem;
+    }
+
+    .hero__content p{
+        font-size:1rem;
+    }
+    .resume{
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero__container{
+        width:100vw;
+    }
+
+    .hero__content h1{
+        font-size: 2rem;
+        margin-top:3rem;
+    }
+
+}
