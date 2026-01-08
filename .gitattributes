@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+Video/Baumgarth_Claire_Demo_Reel.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Aurora.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Gesture-Punch.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Goose.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-In-the-bag.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Neige.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Bleu-Carbone.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Fish.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Peinture-Animée.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Reindeer.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Salto.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Stop-Motion-La-Fleur.mp4 filter=lfs diff=lfs merge=lfs -text
+Video/BAUMGARTH-Claire-Animation-Stop-Motion-Wave.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
