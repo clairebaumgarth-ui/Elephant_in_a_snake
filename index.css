@@ -184,41 +184,41 @@ html {
 }
 
 html {
-    background-image:url("bg_1.jpg");
+    background-image:url("bg_1.webp");
 }
 
 html.scrolled{
     
-    background-image:url("bg_2.jpg");
+    background-image:url("bg_2.webp");
 }
 
 html.scrolled_2{
     
-    background-image:url("bg_3.jpg");
+    background-image:url("bg_3.webp");
 }
 
 html.scrolled_3{
     
-    background-image:url("bg_4.jpg");
+    background-image:url("bg_4.webp");
 }
 
 html.scrolled_4{
     
-    background-image:url("bg_5.jpg");
+    background-image:url("bg_5.webp");
 }
 html.scrolled_5{
     
-    background-image:url("bg_6.png");
+    background-image:url("bg_6.webp");
 }
 
 html.scrolled_6{
     
-    background-image:url("bg_7.png");
+    background-image:url("bg_7.webp");
 }
 
 html.scrolled_7{
     
-    background-image:url("bg_8.png");
+    background-image:url("bg_8.webp");
 }
 .hero__container{
     display: grid;
