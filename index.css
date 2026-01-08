@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: "Penna"; 
+    src:url(penna.otf);
     overflow-x: hidden;
 }
 
@@ -96,7 +97,8 @@
 
 /* Smaller screen adaptation*/
 @media screen and (max-width: 960px){
-
+    *{
+    ]
     .fa-bars{
         line-height: normal;
     }
