@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     font-family: "Penna"; 
-    src:url(penna.otf);
     overflow-x: hidden;
 }
 
@@ -166,6 +165,7 @@
         justify-content:center;
         padding-bottom: 2rem;
         width:100%;
+        font-size: 1rem; 
 
     }
 
