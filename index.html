@@ -263,23 +263,23 @@
 
             var fromTopPx = 20; // distance to trigger
             var scrolledFromtop = jQuery(window).scrollTop()
-            if (scrolledFromtop > 7*fromTopPx){
+            if (scrolledFromtop >= 7*fromTopPx){
                 jQuery('html').addClass('scrolled_7')
             }
-            if (scrolledFromtop > 6*fromTopPx){
+            if (scrolledFromtop >= 6*fromTopPx){
                 jQuery('html').addClass('scrolled_6')
             }
-            if (scrolledFromtop > 5*fromTopPx){
+            if (scrolledFromtop >= 5*fromTopPx){
                 jQuery('html').addClass('scrolled_5')
                 
             }
-            if (scrolledFromtop > 4*fromTopPx){
+            if (scrolledFromtop >= 4*fromTopPx){
                 jQuery('html').addClass('scrolled_4')
             }
-            if (scrolledFromtop > 3*fromTopPx){
+            if (scrolledFromtop >= 3*fromTopPx){
                 jQuery('html').addClass('scrolled_3')
             }
-            if (scrolledFromtop > 2*fromTopPx){
+            if (scrolledFromtop >= 2*fromTopPx){
                 jQuery('html').addClass('scrolled_2')
             }
             else if(scrolledFromtop > fromTopPx){
