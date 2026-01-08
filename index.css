@@ -133,6 +133,7 @@
     }
 
     .navbar__menu.active{
+        font-family: "Penna":
         left: 0;
         opacity: 1;
     }
@@ -169,7 +170,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+    font-family: 'futuralight';
+    src: url(futuralight.ttf);
 }
 
 /* Hero CSS */
