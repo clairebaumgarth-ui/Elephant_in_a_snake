@@ -96,8 +96,7 @@
 
 /* Smaller screen adaptation*/
 @media screen and (max-width: 960px){
-    *{
-    ]
+
     .fa-bars{
         line-height: normal;
     }
@@ -134,7 +133,6 @@
     }
 
     .navbar__menu.active{
-        font-family: "Penna":
         left: 0;
         opacity: 1;
     }
@@ -165,12 +163,14 @@
         justify-content:center;
         padding-bottom: 2rem;
         width:100%;
-        font-size: 1rem; 
 
     }
 
 }
 
+@media screen and (max-width: 480px) {
+    
+}
 
 /* Hero CSS */
 html {
@@ -184,41 +184,41 @@ html {
 }
 
 html {
-    background-image:url("bg_1.webp");
+    background-image:url("bg_1.jpg");
 }
 
 html.scrolled{
     
-    background-image:url("bg_2.webp");
+    background-image:url("bg_2.jpg");
 }
 
 html.scrolled_2{
     
-    background-image:url("bg_3.webp");
+    background-image:url("bg_3.jpg");
 }
 
 html.scrolled_3{
     
-    background-image:url("bg_4.webp");
+    background-image:url("bg_4.jpg");
 }
 
 html.scrolled_4{
     
-    background-image:url("bg_5.webp");
+    background-image:url("bg_5.jpg");
 }
 html.scrolled_5{
     
-    background-image:url("bg_6.webp");
+    background-image:url("bg_6.png");
 }
 
 html.scrolled_6{
     
-    background-image:url("bg_7.webp");
+    background-image:url("bg_7.png");
 }
 
 html.scrolled_7{
     
-    background-image:url("bg_8.webp");
+    background-image:url("bg_8.png");
 }
 .hero__container{
     display: grid;
