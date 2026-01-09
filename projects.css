@@ -191,6 +191,10 @@
     font-size: 4rem; 
 }
 
+.hero__content h2{
+    font-size: 3rem;
+    color: #CD90E8;
+}
 .hero__content p{
     margin-top: 2rem;
     font-size: 1.2rem;
