@@ -191,9 +191,6 @@
     font-size: 4rem; 
 }
 
-.hero__content h2{
-    font-size: 3rem;
-    color: #CD90E8;
 }
 .hero__content p{
     margin-top: 2rem;
@@ -289,6 +286,11 @@
     grid-column: 1 / 7;
     color: #fff;
     font-size: 4rem;
+}
+
+.project__container h2{
+    font-size: 2rem;
+    color: #CD90E8;
 }
 .project-list{
     position: relative;
