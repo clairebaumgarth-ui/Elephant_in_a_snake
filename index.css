@@ -22,7 +22,7 @@
     margin: 0 auto;
     padding: 0 50 px;
     position: fixed;
-    opacity:0;
+    opacity:1;
     
 }
 
@@ -466,7 +466,7 @@ html.scrolled_7{
     color: #CD90E8;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
