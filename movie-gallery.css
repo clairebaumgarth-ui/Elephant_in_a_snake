@@ -47,6 +47,7 @@
     padding: 0 1rem;
     display: flex;
     align-items: center;
+    font-size: 2rem;
 }
 
 .navbar__links:hover{
@@ -175,6 +176,7 @@
 } 
 .info-container{
     grid-column: 1/3;
+    
 }
 .info-container h1{
     color: #CD90E8;
@@ -200,8 +202,8 @@
     height: 500px ;
     width: 100%;
     float: right;
-    overflow: hidden;
     margin-left: 40px;
+    overflow:hidden;
 }
 .portfolio-small-img img{
     height:92px;
@@ -254,6 +256,8 @@
 .video-container{
     float: left;
     padding: 10px;
+    padding-top: 40px; 
+    grid-column: 1/9; 
 }
 @media screen and (max-width: 920px){
     .hero__container{

@@ -291,6 +291,7 @@
 .project__container h2{
     font-size: 2rem;
     color: #CD90E8;
+    padding-top: 10px;
 }
 .project-list{
     position: relative;

@@ -234,7 +234,7 @@ html.scrolled_7{
     color: #CD90E8;
     text-align: center;
     margin-top: 300px;
-    opacity: 0.1;
+    opacity: 0;
     overflow:hidden
 }
 .logo{
@@ -242,7 +242,7 @@ html.scrolled_7{
 }
 .hero__content h1{
     font-size: 4rem; 
-    
+    opacity: 1;
 }
 
 
@@ -374,8 +374,12 @@ html.scrolled_7{
     text-align: center;
     max-width:240px;
     max-height: 200px;
+    color: #fff;
 }
-
+.feature-grid_item a{
+    text-decoration: none; 
+    color: #fff;
+}
 .feature-grid-illu{
     height: 180px;
     width: 180px;
