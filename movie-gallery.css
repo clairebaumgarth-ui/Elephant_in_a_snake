@@ -256,6 +256,7 @@
 .video-container{
     float: left;
     padding: 10px;
+    padding-top: 40px; 
     grid-column: 1/9; 
 }
 @media screen and (max-width: 920px){
