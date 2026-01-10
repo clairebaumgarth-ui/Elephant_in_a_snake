@@ -176,6 +176,7 @@
 } 
 .info-container{
     grid-column: 1/3;
+    
 }
 .info-container h1{
     color: #CD90E8;
@@ -202,6 +203,7 @@
     width: 100%;
     float: right;
     margin-left: 40px;
+    overflow:hidden;
 }
 .portfolio-small-img img{
     height:92px;
@@ -254,6 +256,7 @@
 .video-container{
     float: left;
     padding: 10px;
+    grid-column: 1/9; 
 }
 @media screen and (max-width: 920px){
     .hero__container{
