@@ -66,6 +66,7 @@
     align-items: center;
     margin-inline: 50px;
     display:flex;
+    font-size:2rem;
 }
 
 .navbar__btn.mobile{
