@@ -288,6 +288,7 @@ src: url(fonts/penna.otf) format("opentype"),
 
     .info-container p{
         font-size:1.5rem
+        font-family: 'futuralight';
     }
 
     .portfolio-container{
