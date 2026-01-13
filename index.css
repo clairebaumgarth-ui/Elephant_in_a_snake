@@ -370,7 +370,9 @@ html.scrolled_7{
 }
 
 
-
+.s1__container{
+    background-color: #141414;
+}
 
 .feature-grid{
     display: flex;
