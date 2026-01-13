@@ -52,6 +52,9 @@ src: url(fonts/penna.otf) format("opentype"),
     height: 80px;
 }
 
+.fa-bars{
+    color: #8937B8 ; 
+}
 
 .navbar__links{
     color: #141414;
