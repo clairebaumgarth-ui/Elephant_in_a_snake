@@ -291,6 +291,7 @@ src: url(fonts/penna.otf) format("opentype"),
     line-height: 1.6;
     color: #fff;
     text-align: justify;
+    font-family: 'futuralight';
 }
 
 @media screen and (max-width:768px){
