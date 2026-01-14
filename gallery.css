@@ -4,6 +4,7 @@ src: url(fonts/futuralight.ttf) format("truetype"),
     url(fonts/futuralight.woff2) format("woff2");
 }
 
+
 @font-face {
     font-family: 'penna';
 src: url(fonts/penna.otf) format("opentype"),
