@@ -3,7 +3,7 @@
 src: url(fonts/futuralight.ttf) format("truetype"),
     url(fonts/futuralight.woff2) format("woff2");
 }
-
+ 
 @font-face {
     font-family: 'penna';
 src: url(fonts/penna.otf) format("opentype"),
@@ -34,7 +34,7 @@ src: url(fonts/penna.otf) format("opentype"),
 }
 
 #navbar-logo{
-    color: #CD90E8;
+    color: #8937B8;
     cursor:pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -52,6 +52,9 @@ src: url(fonts/penna.otf) format("opentype"),
     height: 80px;
 }
 
+.fa-bars{
+    color: #8937B8 ; 
+}
 
 .navbar__links{
     color: #141414;
@@ -370,7 +373,9 @@ html.scrolled_7{
 }
 
 
-
+.s1__container{
+    background-color: #141414;
+}
 
 .feature-grid{
     display: flex;
@@ -378,6 +383,7 @@ html.scrolled_7{
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
+    background-color: #141414;
 }
 
 .feature-item{
@@ -478,6 +484,7 @@ html.scrolled_7{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #141414;
 }
 
 .footer__logo{
