@@ -204,6 +204,7 @@ src: url(fonts/penna.otf) format("opentype"),
     font-size: 1.2rem;
     margin-top: 10px;
     text-align: justify;
+    font-family: 'futuralight'
 }
 
 .portfolio-container{
