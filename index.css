@@ -202,7 +202,7 @@ html {
     background-image:url("bg_1.webp");
 }
 
-html.scrolled{
+/* html.scrolled{
      
     background-image:url("bg_2.webp");
 }
@@ -234,7 +234,7 @@ html.scrolled_6{
 html.scrolled_7{
     
     background-image:url("bg_8.webp");
-}
+} */
 .hero__container{
     display: grid;
     align-items: center;
