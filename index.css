@@ -191,6 +191,10 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+}
+
+body{
     background-color: #4e5062; 
     background-image: url('bg_1.webp');
 }
