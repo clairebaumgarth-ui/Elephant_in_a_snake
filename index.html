@@ -20,26 +20,7 @@
     </head>
 
     
-    <body style="background-color:#4e5062;">
-       <script>
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_1.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_2.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_3.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_4.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_5.webp';    
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_6.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_7.webp';
-        const preloadImage = new Image();
-        preloadImage.src = 'bg_8.webp';    
-       </script>
-         
+    <body>
         <header>
             <nav>
                 <div class="navbar__container">
@@ -291,7 +272,7 @@
 
             jQuery('.hero__content').css("opacity", (jQuery(window).scrollTop()/200))
             jQuery('.logo').css("transform", ("rotateZ("+ ((jQuery(window).scrollTop()/5)-45)  + "deg)"))
-
+            /*
             var fromTopPx = 20; // distance to trigger
             var scrolledFromtop = jQuery(window).scrollTop()
             if (scrolledFromtop >= 7*fromTopPx){
@@ -323,6 +304,7 @@
                 jQuery('html').removeClass('scrolled_5')
                 jQuery('html').removeClass('scrolled_6')
             }
+            */
             });
         
         </script>
