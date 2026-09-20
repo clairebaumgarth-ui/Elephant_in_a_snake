@@ -198,41 +198,41 @@ html {
 
 
 html {
-    background-color: #4e5062; 
+     
     background-image:url("bg_1.webp");
 }
 
 html.scrolled{
-    background-color: #4e5062; 
+     
     background-image:url("bg_2.webp");
 }
 
 html.scrolled_2{
-    background-color: #4e5062; 
+     
     background-image:url("bg_3.webp");
 }
 
 html.scrolled_3{
-    background-color: #4e5062; 
+    
     background-image:url("bg_4.webp");
 }
 
 html.scrolled_4{
-    background-color: #4e5062; 
+    
     background-image:url("bg_5.webp");
 }
 html.scrolled_5{
-    background-color: #4e5062; 
+     
     background-image:url("bg_6.webp");
 }
 
 html.scrolled_6{
-    background-color: #4e5062; 
+    
     background-image:url("bg_7.webp");
 }
 
 html.scrolled_7{
-    background-color: #4e5062; 
+    
     background-image:url("bg_8.webp");
 }
 .hero__container{
